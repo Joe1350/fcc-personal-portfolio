@@ -1,0 +1,31 @@
+html {
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+  
+#navbar {
+    background-color: yellow;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    text-align: right;
+}
+  
+a {
+    padding: 5px;
+}
+  
+#spacer {
+    height: 50px;
+}
+  
+#welcome-section {
+    height: 100vh;
+}
+  
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
